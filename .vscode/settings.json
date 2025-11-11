@@ -1,0 +1,53 @@
+{
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.rulers": [80],
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+
+	"42header.username": "tidebonl",
+	"42header.email": "tidebonl@student.42.fr",
+
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, UseTab: Always, BreakBeforeBraces: Linux, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 80, TabWidth: 4 }",
+	"C_Cpp.formatting": "clangFormat",
+
+	"[c]": {
+		"editor.defaultFormatter": "keyhr.42-c-format",
+		"editor.formatOnSave": false
+	},
+
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "off",
+	"editor.renderWhitespace": "all",
+	"workbench.colorCustomizations": {
+		"editorRuler.foreground": "#0e094d"
+	},
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/*.o": true,
+		"**/*.a": true,
+		"**/*.out": true,
+		"**/a.out": true
+	},
+
+	"files.associations": {
+		"*.h": "c",
+		"*.c": "c"
+	},
+
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.suggest.showWords": true,
+	"editor.acceptSuggestionOnEnter": "on",
+
+	"files.eol": "\n",
+	"files.encoding": "utf8",
+	"C_Cpp.errorSquiggles": "enabled"
+}
