@@ -6,7 +6,7 @@
 /*   By: tidebonl <tidebonl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 12:13:23 by tidebonl          #+#    #+#             */
-/*   Updated: 2025/11/11 16:39:44 by tidebonl         ###   ########.fr       */
+/*   Updated: 2025/11/12 10:44:48 by tidebonl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@
 # include "lib/mlx_linux/includes/mlx_profile.h"
 # include <math.h>
 # include <unistd.h>
-
+# include <stdio.h>
+# include <fcntl.h>
 typedef struct mlx
 {
 	mlx_context mlx;
