@@ -6,7 +6,7 @@
 /*   By: tidebonl <tidebonl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 17:40:46 by tidebonl          #+#    #+#             */
-/*   Updated: 2025/11/12 13:14:47 by tidebonl         ###   ########.fr       */
+/*   Updated: 2025/11/13 13:00:46 by tidebonl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,20 +64,7 @@ char **map_in_tab(char **tab)
 		y++;
 		result = get_next_line(fd);
 	}
+	tab[y] = NULL;
 	close(fd);
 	return (tab);
-}
-void	map_creator(char **tab)
-{
-	int x;
-	int y;
-
-	while (x )
-}
-int	main(void)
-{
-	char **tab;
-
-	tab = map_in_tab(tab);
-	map_creator(tab);
 }

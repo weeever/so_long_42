@@ -6,7 +6,7 @@
 /*   By: tidebonl <tidebonl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/11 15:31:59 by tidebonl          #+#    #+#             */
-/*   Updated: 2025/11/11 16:39:47 by tidebonl         ###   ########.fr       */
+/*   Updated: 2025/11/13 11:47:01 by tidebonl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 int	main(void)
 {
+	char **tab;
+
 	mlx_t mlx;
 	int i = 0;
 	mlx_window_create_info info = {0};
@@ -26,6 +28,7 @@ int	main(void)
 	mlx.mlx = mlx_init();
 
 	mlx.win = mlx_new_window(mlx.mlx, &info);
-	character_init(mlx);
+	tab = map_in_tab(tab);
+	show_map(mlx, tab);
 	mlx_loop(mlx.mlx);
 }

@@ -6,7 +6,7 @@
 /*   By: tidebonl <tidebonl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 12:13:23 by tidebonl          #+#    #+#             */
-/*   Updated: 2025/11/12 10:44:48 by tidebonl         ###   ########.fr       */
+/*   Updated: 2025/11/13 11:49:47 by tidebonl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,6 @@ typedef struct mlx
 } mlx_t;
 
 void character_init(mlx_t mlx);
-
+void	show_map(mlx_t mlx, char **tab);
+char **map_in_tab(char **tab);
 #endif
